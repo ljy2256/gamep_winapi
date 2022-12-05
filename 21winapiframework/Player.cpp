@@ -52,7 +52,7 @@ void Player::Update()
 		vPos.y += 300.f * fDT; //TimeMgr::GetInst()->GetfDT();
 	}
 //	if (KeyMgr::GetInst()->GetKey(KEY::SPACE) == KEY_STATE::TAP)
-	if(KEY_TAP(KEY::SPACE))
+	if(KEY_TAP(KEY::ALT))
 	{
 		CreateBullet();
 	}
